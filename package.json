@@ -1,0 +1,37 @@
+{
+  "name": "node-postgresql-api",
+  "version": "1.0.0",
+  "description": "A simple node postgresql api app",
+  "main": "index.js",
+  "scripts": {
+    "dev": "nodemon src --exec babel-node",
+    "build": "babel src --out-dir dist",
+    "start": "node dist"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/carlosdan8co/node-postgresql-api.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/carlosdan8co/node-postgresql-api/issues"
+  },
+  "homepage": "https://github.com/carlosdan8co/node-postgresql-api#readme",
+  "dependencies": {
+    "@babel/polyfill": "^7.12.1",
+    "express": "^4.17.1",
+    "morgan": "^1.10.0",
+    "pg": "^8.5.1",
+    "pg-hstore": "^2.3.3",
+    "sequelize": "^6.3.5"
+  },
+  "devDependencies": {
+    "@babel/cli": "^7.12.10",
+    "@babel/core": "^7.12.10",
+    "@babel/node": "^7.12.10",
+    "@babel/preset-env": "^7.12.11",
+    "nodemon": "^2.0.6"
+  }
+}
